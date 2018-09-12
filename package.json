@@ -1,7 +1,7 @@
 {
   "name": "cubbles-coder-devtools",
   "description": "This contains a suite of grunt-based tools to develop and release cubbles-webpackages.",
-  "version": "2.19.0",
+  "version": "2.20.0",
   "private": true,
   "engines": {
     "node": ">= 8.11.1",

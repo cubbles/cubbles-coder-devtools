@@ -2,7 +2,7 @@
 module.exports = function (grunt) {
   'use strict';
   grunt.registerTask('+webpackage-validateManifestFile', 'Validate \'manifest.webpackage\' file.', function () {
-    var WebpackageDocument = require('cubx-webpackage-document-api/lib/WebPackageDocument');
+    var WebpackageDocument = require('cubx-webpackage-document-api/lib/WebpackageDocument');
     var doc = new WebpackageDocument(grunt.config.get('manifestWebpackage'));
     //
     var onSuccess = function () {
